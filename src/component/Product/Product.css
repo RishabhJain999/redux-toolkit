@@ -1,0 +1,34 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+.products__wrapper {
+  text-align: center;
+  padding: 20px;
+  width: 20%;
+  margin: 1.5rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.products__wrapper img {
+  width: 70px;
+  object-fit: cover;
+}
+.products__wrapper h5 {
+  margin: 10px 0;
+  font-weight: 800;
+}
+
+.products__wrapper button {
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.products__wrapper button:hover {
+  background-color: aqua;
+}
